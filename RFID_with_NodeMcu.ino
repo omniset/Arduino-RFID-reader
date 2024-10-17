@@ -42,7 +42,7 @@ void loop()
   if (content.substring(1) == "C1 9A 15 44") //change UID of the card that you want to give access
   {
     Serial.println(" Authorized Access ");
-    Serial.println(" Welcome Mandalan ");
+    Serial.println(" Welcome User ");
     delay(500);
     digitalWrite(LED_R, HIGH);
     delay(5000);
